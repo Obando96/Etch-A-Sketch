@@ -1,0 +1,123 @@
+*{
+    background-color: beige;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+#contenedorPrincipal{
+    margin: 0 auto;
+    border: 1px solid gray;
+    height: 600px;
+    width: 900px;
+    display: flex;
+}
+
+#contenedorPropiedades{
+    height: 550px;
+    width: 250px;
+    border: 1px solid red;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contenedorCuadriculas{
+    height: 550px;
+    width: 550px;
+    border: 2px solid black;
+    background-color: white;
+    margin: auto;
+    display: grid;
+}
+
+.cuadriculas{
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    background-color: white;
+}
+
+.cuadriculasNegro{
+    border: 1px solid black;
+    background-color: white;
+}
+
+.cuadriculasNegro::marker{
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    background-color: black;
+}
+
+
+#dimensionCuadricula{
+    height: 50px;
+    width: 240px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#dimensionCuadricula p{
+    margin-top: 0;
+    margin-bottom: 2px;
+
+}
+
+#dimension{
+    margin: 2px auto auto 10px;
+    float: left;
+}
+
+#mostrarDimension{
+    float: left;
+    margin: 2px auto auto 30px;
+    font-size: 18px;
+}
+
+#contenedorElejirColores{
+    height: 300px;
+    width: 240px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+#colores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+}
+
+#negro{
+    background-color: black;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#arcoiris {
+    width: 60px;
+    margin-top: 10px;
+}
+
+#reiniciar{
+    margin: auto;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <h1>Etch-A-Sketch</h1>
+    <div id="contenedorPrincipal">
+        <div id="contenedorPropiedades">
+            <div id="dimensionCuadricula">
+                <p>Elija el tamaño de la cuadricula</p>
+                <input type="button" value="Elegir dimension" id="dimension">
+                <div id="mostrarDimension">16 * 16</div>
+            </div>
+            <div id="contenedorElejirColores">
+                <div id="tituloColores"><h3>Elija un color</h3></div>
+                <div id="colores">
+                    <button id="negro"></button>
+                    <button id="rojo"></button>
+                    <button id="azul"></button>
+                    <button id="arcoiris">Arcoiris</button>
+                </div>
+            </div>
+            <div id="reiniciar">
+                <input type="button" value="Borrar color">
+            </div>
+        </div>
+        <div id="contenedorCuadriculas">
+            
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
